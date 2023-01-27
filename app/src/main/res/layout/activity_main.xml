@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/num1_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/input_first"
+        android:textSize="18dp"
+        />
+    <EditText
+        android:id="@+id/num1_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="12"
+        android:inputType="number"
+        />
+
+    <TextView
+        android:id="@+id/operation_textView"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="18dp"
+        android:text="@string/operation"
+        />
+    <EditText
+        android:id="@+id/operation_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="12"
+        android:inputType="text"
+        />
+
+    <TextView
+        android:id="@+id/num2_textView"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="18dp"
+        android:text="@string/input_second"
+        />
+    <EditText
+        android:id="@+id/num2_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="12"
+        android:inputType="number"
+        />
+
+    <Button
+        android:id="@+id/calc_result_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calculate"
+        />
+    <TextView
+        android:id="@+id/result_textView"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="18dp"
+        android:text="@string/result"
+        />
+
+</LinearLayout>
